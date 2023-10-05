@@ -81,7 +81,7 @@ function Card({cardsToShow}) {
     return (
         <>
             {cardsToShow.map((item) => (
-                <div key={item.id} className="w-[300px] h-[365px] glassmorphism rounded-2xl bg-red-500 shadow flex flex-col ">
+                <div key={item.id} className="w-[300px] h-[365px] rounded-2xl bg-red-200 shadow flex flex-col ">
                     <div className="rounded-xl overflow-hidden z-10 mt-[10px] relative mx-2">
                         <img src={item.image_url} alt="image1" className="w-full h-full object-cover " />
                     </div>

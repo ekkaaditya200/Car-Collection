@@ -20,7 +20,7 @@ function App() {
   const totalPages = Math.ceil(data.cars.length / CardsPerPage);
 
   return (
-    <div className='flex flex-col gap-5 justify-center items-center'>
+    <div className='flex flex-col gap-5 justify-center items-cente'>
       <Header />
       <div className="flex flex-col items-center justify-center ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 gap-x-8">
